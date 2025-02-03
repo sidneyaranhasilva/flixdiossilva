@@ -25,7 +25,7 @@ namespace filter.Function
             var container = _cosmosClient.GetContainer("DioFlixDB", "movies");
             var id = req.Query["id"];
             var query = $"SELECT * FROM c WHERE c.id = @id";
-            var queryDefinition = new QueryDefinition(query).WithParameter("id", id);
+            var queryDefinition = new QueryDefinition(query).WithParameter("@id", id);
             var result = container.GetItemQueryIterator<MovieResult>(queryDefinition);
             var results = new List<MovieResult>();
             while(result.HasMoreResults)

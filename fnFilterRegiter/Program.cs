@@ -14,8 +14,8 @@ builder.ConfigureFunctionsWebApplication();
 
 builder.Services.AddSingleton(s => 
 {
-    string connst = Environment.GetEnvironmentVariable("cosmoDBConnection");
-    return new CosmosClient(connst);
+    string connectionString = Environment.GetEnvironmentVariable("cosmoDBConnection");
+    return new CosmosClient(connectionString);
 });
 
 builder.Build().Run();
