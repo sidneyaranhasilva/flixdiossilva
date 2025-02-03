@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fnFilterRegiter", "fnFilterRegiter.csproj", "{DFFE3C46-2E22-FDF1-F65B-5EF3F6DE789C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFFE3C46-2E22-FDF1-F65B-5EF3F6DE789C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFE3C46-2E22-FDF1-F65B-5EF3F6DE789C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFE3C46-2E22-FDF1-F65B-5EF3F6DE789C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFE3C46-2E22-FDF1-F65B-5EF3F6DE789C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA580C18-22CB-41BD-8A79-67F66222C33C}
+	EndGlobalSection
+EndGlobal
